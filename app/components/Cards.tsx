@@ -11,19 +11,20 @@ const Cards = () => {
                 width={75}
                 height={75}
                     />
-                    <p className='price'>Rp. 10.000</p>           
+                    <p className='price'>Rp. 10.000</p>
                 </div>
                 <div>
-                    <Image
+                    {/* ini rencananya mau buat image */}
+                    {/* <Image
                         src=''
                         alt=''
                         width={50}
                         height={50}
-                    />
+                    /> */}
+                    <button>Tambah Ke keranjang</button>
                 </div>
             </div>
         </div>
-     
     )
 }
 export default Cards
