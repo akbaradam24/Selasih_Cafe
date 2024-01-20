@@ -7,7 +7,7 @@ import profilePic from './assets/profile.png'
 
 export default function Home() {
   return (
-    <div>
+    <div className='mx-auto max-w-screen-xl'>
       <div className=" flex justify-between">
         <div className='flex p-4 gap-2 flex-row  '>
           <Image
@@ -22,7 +22,8 @@ export default function Home() {
         </div>
         <div className='flex gap-2 p-4'>
           {/* <input className='w-auto h-2 border-blue-200 rounded-xl' placeholder='search...' type="text" /> */}
-          <Image  className='object-contain'
+          <input type="text" className='h-8 w-24 rounded-lg border-2 mt-2 p-1' placeholder='search...' />
+          <Image  className='object-contain ml-4'
           src={profilePic}
           alt="profil logo" 
           width={35}
