@@ -13,7 +13,7 @@ const Cards = () => {
                     />
                     <p className='price'>Rp. 10.000</p>
                 </div>
-                <div className='text-center'>
+                <div className='text-center '>
                     {/* ini rencananya mau buat image */}
                     {/* <Image
                         src=''
